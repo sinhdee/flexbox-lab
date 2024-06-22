@@ -11,14 +11,30 @@
   nav {
     background-color: white;
     padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
+  #destinations {
+    display: flex;
+justify-content: space-around;
+gap: 16px;
+  }
+
+  #actions {
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
+  align-items: center;
+  }
   p {
     margin: 0;
+    
   }
   
   section {
-    height: 400px;
+    height: 460px;
     background-color: black;
     color: white;
     padding: 24px 72px;
@@ -78,10 +94,13 @@
   }
   
   #subnav {
+    display: flex;
     padding: 32px 72px 0;
     background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
   }
-  
+
   #subnav button {
     border-radius: 8px;
     padding: 10px 16px;
@@ -96,3 +115,43 @@
     padding: 6px 15px;
   }
   
+  #hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #trending {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 12px;
+    align-items: center;
+
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+
+  }
+  
+  .card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+
